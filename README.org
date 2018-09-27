@@ -1,0 +1,19 @@
+#+TITLE: fuzz string maker manual
+
+
+* Extractor
+- htmlページでパラメータを入力することができるinputフィールドの名前を抽出します。
+
+[[./img/extractor.png]]
+
+
+
+
+* Fuzzer
+- 抽出されたパラメータに様々な攻撃ペイロード（fuzz文字列）を設定することができます。
+
+[[./img/fuzzer-1.png]]
+
+
+[[./img/fuzzer-2.png]]
+
